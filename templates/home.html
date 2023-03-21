@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    </head>
+
+    <body class = "immaginicentrate">
+        <h1> Benvenuti nel mio sito! </h1>
+        <p> In questo sito web troverete le informazioni riguardanti la vostra squadra preferita!</p>
+        <img src="{{url_for('static', filename='images/calcio.jpg')}}" align="middle" />
+        <br>
+        <a href="/login"> Clicca qui</a>
+    </body>
+
+</html>
